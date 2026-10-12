@@ -1,0 +1,62 @@
+# ==========================================
+# SECRETS & ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# PYTHON BYTECODE & CACHE
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# ==========================================
+# STREAMLIT & UI CACHE
+# ==========================================
+.streamlit/secrets.toml
+
+# ==========================================
+# RUNTIME & TEMPORARY FILES
+# ==========================================
+temp_bill.png
+temp_*.png
+temp_*.jpg
+*.tmp
+
+# ==========================================
+# LOCAL OUTPUTS & SUBMISSION ARTIFACTS
+# ==========================================
+output/
+submission_pkg/
+*.zip
+*.tar.gz
+
+# ==========================================
+# OPERATING SYSTEM ARTIFACTS
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# IDE & EDITOR SETTINGS
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
